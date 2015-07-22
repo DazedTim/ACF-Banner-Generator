@@ -1,0 +1,13 @@
+<div class="comp__banner">
+	<img class="banner-image hidden-xs" src="<?php the_sub_field('image') ?>">
+		<div class="banner-background row" style="<?php echo $background ?>">
+			<div class="banner-content">
+				<h2 class="banner-title"><?php the_sub_field('title') ?></h2>
+					<h3 class="banner-sub-title"><?php the_sub_field('sub_title') ?></h3>
+						<p class="banner-text"><?php the_sub_field('text') ?></p>
+			<a class="btn btn-cta-banner" href="<?php echo get_home_url() ?>/book/" role="button">Get Started Now! 
+				<img src="<?php echo get_template_directory_uri() ?>/assets/img/cta-arrow.png">
+			</a>
+			</div>
+		</div>
+</div>
